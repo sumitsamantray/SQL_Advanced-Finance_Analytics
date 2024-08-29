@@ -1,1 +1,1 @@
-# Atliq_Hardware_sql
+SQL Advanced: Finance Analytics
