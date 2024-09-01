@@ -6,7 +6,7 @@
 -- Gross price total
 
 select 
-s.date, s.product_code,
+s.date, s.product_code,  --Month, product name
 p.product, p.variant, s.sold_quantity, 
 g.gross_price,
 round(g.gross_price*s.sold_quantity,2) as gross_price_total
