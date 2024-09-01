@@ -1,13 +1,15 @@
-
-
-
-
+-- Month
+-- Product Name
+-- Variant
+-- Sold quantity
+-- Gross price per item
+-- Gross price total
 
 select 
 s.date, s.product_code,
 p.product, p.variant, s.sold_quantity, 
 g.gross_price,
-g.gross_price*s.sold_quantity as gross_price_total
+round(g.gross_price*s.sold_quantity,2) as gross_price_total
 from fact_sales_monthly s
 join dim_product p
 on p.product_code = s.product_code
