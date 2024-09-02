@@ -1,4 +1,4 @@
-Chapter:- SQL Advanced: Finance Analytics
+SQL Advanced: Finance Analytics
 
 
 
